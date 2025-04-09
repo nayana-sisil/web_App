@@ -1,0 +1,349 @@
+29-Mar-2025 09:34:38.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.102
+29-Mar-2025 09:34:38.151 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 3 2025 19:33:14 UTC
+29-Mar-2025 09:34:38.152 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.102.0
+29-Mar-2025 09:34:38.152 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+29-Mar-2025 09:34:38.152 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+29-Mar-2025 09:34:38.152 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+29-Mar-2025 09:34:38.152 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\nayan\.jdks\corretto-17.0.10
+29-Mar-2025 09:34:38.152 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+7-LTS
+29-Mar-2025 09:34:38.152 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+29-Mar-2025 09:34:38.152 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\nayan\.SmartTomcat\CRUD_TEST_1\CRUD_TEST_1
+29-Mar-2025 09:34:38.152 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\nayan\Downloads\apache-tomcat-9.0.102\apache-tomcat-9.0.102
+29-Mar-2025 09:34:38.164 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Mar-2025 09:34:38.164 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+29-Mar-2025 09:34:38.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+29-Mar-2025 09:34:38.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Mar-2025 09:34:38.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Mar-2025 09:34:38.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\nayan\Downloads\apache-tomcat-9.0.102\apache-tomcat-9.0.102
+29-Mar-2025 09:34:38.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\nayan\.SmartTomcat\CRUD_TEST_1\CRUD_TEST_1
+29-Mar-2025 09:34:38.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\nayan\.SmartTomcat\CRUD_TEST_1\CRUD_TEST_1\temp
+29-Mar-2025 09:34:38.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\nayan\.SmartTomcat\CRUD_TEST_1\CRUD_TEST_1\conf\logging.properties
+29-Mar-2025 09:34:38.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Mar-2025 09:34:38.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\nayan\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2024.1\lib\idea_rt.jar=12276:C:\Users\nayan\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2024.1\bin
+29-Mar-2025 09:34:38.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+29-Mar-2025 09:34:38.174 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\nayan\.jdks\corretto-17.0.10\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jre1.8.0_251\bin\;C:\Program Files\Git\cmd;C:\Program Files\jdk-22.0.2\bin;C:\Program Files\nodejs\;C:\Users\nayan\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\nayan\AppData\Local\Programs\Python\Python313\;C:\Users\nayan\AppData\Local\Microsoft\WindowsApps;C:\Users\nayan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\nayan\AppData\Local\GitHubDesktop\bin;C:\Users\nayan\AppData\Roaming\npm;;.]
+29-Mar-2025 09:34:39.198 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-Mar-2025 09:34:39.239 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1048)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:525)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:986)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:690)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:713)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:268)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:223)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1373)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1386)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:663)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:80)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1046)
+		... 13 more
+29-Mar-2025 09:34:39.240 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2156] milliseconds
+29-Mar-2025 09:34:39.339 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+29-Mar-2025 09:34:39.339 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.102]
+29-Mar-2025 09:34:39.364 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\nayan\.SmartTomcat\CRUD_TEST_1\CRUD_TEST_1\conf\Catalina\localhost\CRUD_TEST_1.xml]
+29-Mar-2025 09:34:39.929 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.0]. Default version will be used.
+29-Mar-2025 09:34:40.288 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\nayan\.SmartTomcat\CRUD_TEST_1\CRUD_TEST_1\conf\Catalina\localhost\CRUD_TEST_1.xml] has finished in [922] ms
+29-Mar-2025 09:34:40.301 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1060] milliseconds
+29-Mar-2025 09:34:40.312 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.Net.bind(Net.java:544)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:648)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:388)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:274)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:537)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:829)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:777)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+29-Mar-2025 09:34:40.313 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Mar-2025 09:34:40.314 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+29-Mar-2025 09:34:40.342 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Mar-2025 09:34:40.344 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Mar-2025 09:37:51.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.102
+29-Mar-2025 09:37:51.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 3 2025 19:33:14 UTC
+29-Mar-2025 09:37:51.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.102.0
+29-Mar-2025 09:37:51.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+29-Mar-2025 09:37:51.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+29-Mar-2025 09:37:51.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+29-Mar-2025 09:37:51.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\nayan\.jdks\corretto-17.0.10
+29-Mar-2025 09:37:51.582 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+7-LTS
+29-Mar-2025 09:37:51.582 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+29-Mar-2025 09:37:51.582 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\nayan\.SmartTomcat\CRUD_TEST_1\CRUD_TEST_1
+29-Mar-2025 09:37:51.582 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\nayan\Downloads\apache-tomcat-9.0.102\apache-tomcat-9.0.102
+29-Mar-2025 09:37:51.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Mar-2025 09:37:51.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+29-Mar-2025 09:37:51.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+29-Mar-2025 09:37:51.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Mar-2025 09:37:51.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Mar-2025 09:37:51.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\nayan\Downloads\apache-tomcat-9.0.102\apache-tomcat-9.0.102
+29-Mar-2025 09:37:51.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\nayan\.SmartTomcat\CRUD_TEST_1\CRUD_TEST_1
+29-Mar-2025 09:37:51.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\nayan\.SmartTomcat\CRUD_TEST_1\CRUD_TEST_1\temp
+29-Mar-2025 09:37:51.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\nayan\.SmartTomcat\CRUD_TEST_1\CRUD_TEST_1\conf\logging.properties
+29-Mar-2025 09:37:51.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Mar-2025 09:37:51.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\nayan\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2024.1\lib\idea_rt.jar=12295:C:\Users\nayan\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2024.1\bin
+29-Mar-2025 09:37:51.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+29-Mar-2025 09:37:51.603 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\nayan\.jdks\corretto-17.0.10\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jre1.8.0_251\bin\;C:\Program Files\Git\cmd;C:\Program Files\jdk-22.0.2\bin;C:\Program Files\nodejs\;C:\Users\nayan\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\nayan\AppData\Local\Programs\Python\Python313\;C:\Users\nayan\AppData\Local\Microsoft\WindowsApps;C:\Users\nayan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\nayan\AppData\Local\GitHubDesktop\bin;C:\Users\nayan\AppData\Roaming\npm;;.]
+29-Mar-2025 09:37:52.002 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-Mar-2025 09:37:52.015 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1048)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:525)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:986)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:690)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:713)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:268)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:223)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1373)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1386)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:663)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:80)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1046)
+		... 13 more
+29-Mar-2025 09:37:52.016 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [728] milliseconds
+29-Mar-2025 09:37:52.069 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+29-Mar-2025 09:37:52.069 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.102]
+29-Mar-2025 09:37:52.082 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\nayan\.SmartTomcat\CRUD_TEST_1\CRUD_TEST_1\conf\Catalina\localhost\CRUD_TEST_1.xml]
+29-Mar-2025 09:37:52.390 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.0]. Default version will be used.
+29-Mar-2025 09:37:52.753 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\nayan\.SmartTomcat\CRUD_TEST_1\CRUD_TEST_1\conf\Catalina\localhost\CRUD_TEST_1.xml] has finished in [670] ms
+29-Mar-2025 09:37:52.761 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [744] milliseconds
+29-Mar-2025 09:37:52.768 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.Net.bind(Net.java:544)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:648)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:388)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:274)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:537)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:829)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:777)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+29-Mar-2025 09:37:52.768 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Mar-2025 09:37:52.769 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+29-Mar-2025 09:37:52.780 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Mar-2025 09:37:52.782 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Mar-2025 09:40:40.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.102
+29-Mar-2025 09:40:40.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 3 2025 19:33:14 UTC
+29-Mar-2025 09:40:40.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.102.0
+29-Mar-2025 09:40:40.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+29-Mar-2025 09:40:40.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+29-Mar-2025 09:40:40.677 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+29-Mar-2025 09:40:40.677 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\nayan\.jdks\corretto-17.0.10
+29-Mar-2025 09:40:40.677 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+7-LTS
+29-Mar-2025 09:40:40.677 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+29-Mar-2025 09:40:40.677 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\nayan\.SmartTomcat\CRUD_TEST_1\CRUD_TEST_1
+29-Mar-2025 09:40:40.677 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\nayan\Downloads\apache-tomcat-9.0.102\apache-tomcat-9.0.102
+29-Mar-2025 09:40:40.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Mar-2025 09:40:40.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+29-Mar-2025 09:40:40.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+29-Mar-2025 09:40:40.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Mar-2025 09:40:40.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Mar-2025 09:40:40.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\nayan\Downloads\apache-tomcat-9.0.102\apache-tomcat-9.0.102
+29-Mar-2025 09:40:40.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\nayan\.SmartTomcat\CRUD_TEST_1\CRUD_TEST_1
+29-Mar-2025 09:40:40.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\nayan\.SmartTomcat\CRUD_TEST_1\CRUD_TEST_1\temp
+29-Mar-2025 09:40:40.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\nayan\.SmartTomcat\CRUD_TEST_1\CRUD_TEST_1\conf\logging.properties
+29-Mar-2025 09:40:40.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Mar-2025 09:40:40.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\nayan\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2024.1\lib\idea_rt.jar=12306:C:\Users\nayan\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2024.1\bin
+29-Mar-2025 09:40:40.690 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+29-Mar-2025 09:40:40.701 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\nayan\.jdks\corretto-17.0.10\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jre1.8.0_251\bin\;C:\Program Files\Git\cmd;C:\Program Files\jdk-22.0.2\bin;C:\Program Files\nodejs\;C:\Users\nayan\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\nayan\AppData\Local\Programs\Python\Python313\;C:\Users\nayan\AppData\Local\Microsoft\WindowsApps;C:\Users\nayan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\nayan\AppData\Local\GitHubDesktop\bin;C:\Users\nayan\AppData\Roaming\npm;;.]
+29-Mar-2025 09:40:41.146 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-Mar-2025 09:40:41.262 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [886] milliseconds
+29-Mar-2025 09:40:41.318 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+29-Mar-2025 09:40:41.318 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.102]
+29-Mar-2025 09:40:41.330 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\nayan\.SmartTomcat\CRUD_TEST_1\CRUD_TEST_1\conf\Catalina\localhost\CRUD_TEST_1.xml]
+29-Mar-2025 09:40:41.605 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.0]. Default version will be used.
+29-Mar-2025 09:40:42.001 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\nayan\.SmartTomcat\CRUD_TEST_1\CRUD_TEST_1\conf\Catalina\localhost\CRUD_TEST_1.xml] has finished in [671] ms
+29-Mar-2025 09:40:42.012 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Mar-2025 09:40:42.090 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [827] milliseconds
+29-Mar-2025 09:40:54.585 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Mar-2025 09:40:54.662 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+29-Mar-2025 09:40:54.670 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Mar-2025 09:40:54.674 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Mar-2025 09:41:00.993 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.102
+29-Mar-2025 09:41:00.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 3 2025 19:33:14 UTC
+29-Mar-2025 09:41:00.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.102.0
+29-Mar-2025 09:41:00.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+29-Mar-2025 09:41:00.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+29-Mar-2025 09:41:00.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+29-Mar-2025 09:41:00.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\nayan\.jdks\corretto-17.0.10
+29-Mar-2025 09:41:00.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+7-LTS
+29-Mar-2025 09:41:00.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+29-Mar-2025 09:41:00.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\nayan\.SmartTomcat\CRUD_TEST_1\CRUD_TEST_1
+29-Mar-2025 09:41:00.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\nayan\Downloads\apache-tomcat-9.0.102\apache-tomcat-9.0.102
+29-Mar-2025 09:41:01.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Mar-2025 09:41:01.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+29-Mar-2025 09:41:01.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+29-Mar-2025 09:41:01.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Mar-2025 09:41:01.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Mar-2025 09:41:01.010 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\nayan\Downloads\apache-tomcat-9.0.102\apache-tomcat-9.0.102
+29-Mar-2025 09:41:01.010 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\nayan\.SmartTomcat\CRUD_TEST_1\CRUD_TEST_1
+29-Mar-2025 09:41:01.010 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\nayan\.SmartTomcat\CRUD_TEST_1\CRUD_TEST_1\temp
+29-Mar-2025 09:41:01.010 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\nayan\.SmartTomcat\CRUD_TEST_1\CRUD_TEST_1\conf\logging.properties
+29-Mar-2025 09:41:01.010 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Mar-2025 09:41:01.010 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\nayan\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2024.1\lib\idea_rt.jar=12310:C:\Users\nayan\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2024.1\bin
+29-Mar-2025 09:41:01.010 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+29-Mar-2025 09:41:01.019 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\nayan\.jdks\corretto-17.0.10\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jre1.8.0_251\bin\;C:\Program Files\Git\cmd;C:\Program Files\jdk-22.0.2\bin;C:\Program Files\nodejs\;C:\Users\nayan\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\nayan\AppData\Local\Programs\Python\Python313\;C:\Users\nayan\AppData\Local\Microsoft\WindowsApps;C:\Users\nayan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\nayan\AppData\Local\GitHubDesktop\bin;C:\Users\nayan\AppData\Roaming\npm;;.]
+29-Mar-2025 09:41:01.410 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-Mar-2025 09:41:01.445 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [740] milliseconds
+29-Mar-2025 09:41:01.496 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+29-Mar-2025 09:41:01.496 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.102]
+29-Mar-2025 09:41:01.509 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\nayan\.SmartTomcat\CRUD_TEST_1\CRUD_TEST_1\conf\Catalina\localhost\CRUD_TEST_1.xml]
+29-Mar-2025 09:41:01.719 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.0]. Default version will be used.
+29-Mar-2025 09:41:02.003 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\nayan\.SmartTomcat\CRUD_TEST_1\CRUD_TEST_1\conf\Catalina\localhost\CRUD_TEST_1.xml] has finished in [494] ms
+29-Mar-2025 09:41:02.009 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Mar-2025 09:41:02.081 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [634] milliseconds
+29-Mar-2025 09:41:06.499 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Mar-2025 09:41:06.569 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+29-Mar-2025 09:41:06.575 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Mar-2025 09:41:06.578 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Mar-2025 09:41:47.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.102
+29-Mar-2025 09:41:47.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 3 2025 19:33:14 UTC
+29-Mar-2025 09:41:47.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.102.0
+29-Mar-2025 09:41:47.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+29-Mar-2025 09:41:47.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+29-Mar-2025 09:41:47.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+29-Mar-2025 09:41:47.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\nayan\.jdks\corretto-17.0.10
+29-Mar-2025 09:41:47.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+7-LTS
+29-Mar-2025 09:41:47.937 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+29-Mar-2025 09:41:47.937 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\nayan\.SmartTomcat\CRUD_TEST_1\CRUD_TEST_1
+29-Mar-2025 09:41:47.937 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\nayan\Downloads\apache-tomcat-9.0.102\apache-tomcat-9.0.102
+29-Mar-2025 09:41:47.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Mar-2025 09:41:47.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+29-Mar-2025 09:41:47.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+29-Mar-2025 09:41:47.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Mar-2025 09:41:47.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Mar-2025 09:41:47.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\nayan\Downloads\apache-tomcat-9.0.102\apache-tomcat-9.0.102
+29-Mar-2025 09:41:47.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\nayan\.SmartTomcat\CRUD_TEST_1\CRUD_TEST_1
+29-Mar-2025 09:41:47.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\nayan\.SmartTomcat\CRUD_TEST_1\CRUD_TEST_1\temp
+29-Mar-2025 09:41:47.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\nayan\.SmartTomcat\CRUD_TEST_1\CRUD_TEST_1\conf\logging.properties
+29-Mar-2025 09:41:47.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Mar-2025 09:41:47.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\nayan\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2024.1\lib\idea_rt.jar=12316:C:\Users\nayan\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2024.1\bin
+29-Mar-2025 09:41:47.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+29-Mar-2025 09:41:47.961 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\nayan\.jdks\corretto-17.0.10\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jre1.8.0_251\bin\;C:\Program Files\Git\cmd;C:\Program Files\jdk-22.0.2\bin;C:\Program Files\nodejs\;C:\Users\nayan\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\nayan\AppData\Local\Programs\Python\Python313\;C:\Users\nayan\AppData\Local\Microsoft\WindowsApps;C:\Users\nayan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\nayan\AppData\Local\GitHubDesktop\bin;C:\Users\nayan\AppData\Roaming\npm;;.]
+29-Mar-2025 09:41:48.380 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-Mar-2025 09:41:48.402 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [766] milliseconds
+29-Mar-2025 09:41:48.459 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+29-Mar-2025 09:41:48.459 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.102]
+29-Mar-2025 09:41:48.471 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\nayan\.SmartTomcat\CRUD_TEST_1\CRUD_TEST_1\conf\Catalina\localhost\CRUD_TEST_1.xml]
+29-Mar-2025 09:41:48.671 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.0]. Default version will be used.
+29-Mar-2025 09:41:49.007 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\nayan\.SmartTomcat\CRUD_TEST_1\CRUD_TEST_1\conf\Catalina\localhost\CRUD_TEST_1.xml] has finished in [535] ms
+29-Mar-2025 09:41:49.013 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Mar-2025 09:41:49.078 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [676] milliseconds
+29-Mar-2025 09:41:50.157 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Mar-2025 09:41:50.250 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+29-Mar-2025 09:41:50.260 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Mar-2025 09:41:50.263 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Mar-2025 09:42:06.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.102
+29-Mar-2025 09:42:06.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 3 2025 19:33:14 UTC
+29-Mar-2025 09:42:06.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.102.0
+29-Mar-2025 09:42:06.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+29-Mar-2025 09:42:06.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+29-Mar-2025 09:42:06.908 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+29-Mar-2025 09:42:06.908 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\nayan\.jdks\corretto-17.0.10
+29-Mar-2025 09:42:06.908 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+7-LTS
+29-Mar-2025 09:42:06.908 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+29-Mar-2025 09:42:06.908 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\nayan\.SmartTomcat\CRUD_TEST_1\CRUD_TEST_1
+29-Mar-2025 09:42:06.908 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\nayan\Downloads\apache-tomcat-9.0.102\apache-tomcat-9.0.102
+29-Mar-2025 09:42:06.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Mar-2025 09:42:06.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+29-Mar-2025 09:42:06.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+29-Mar-2025 09:42:06.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Mar-2025 09:42:06.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Mar-2025 09:42:06.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\nayan\Downloads\apache-tomcat-9.0.102\apache-tomcat-9.0.102
+29-Mar-2025 09:42:06.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\nayan\.SmartTomcat\CRUD_TEST_1\CRUD_TEST_1
+29-Mar-2025 09:42:06.923 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\nayan\.SmartTomcat\CRUD_TEST_1\CRUD_TEST_1\temp
+29-Mar-2025 09:42:06.923 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\nayan\.SmartTomcat\CRUD_TEST_1\CRUD_TEST_1\conf\logging.properties
+29-Mar-2025 09:42:06.923 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Mar-2025 09:42:06.923 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\nayan\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2024.1\lib\idea_rt.jar=12325:C:\Users\nayan\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2024.1\bin
+29-Mar-2025 09:42:06.923 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+29-Mar-2025 09:42:06.932 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\nayan\.jdks\corretto-17.0.10\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jre1.8.0_251\bin\;C:\Program Files\Git\cmd;C:\Program Files\jdk-22.0.2\bin;C:\Program Files\nodejs\;C:\Users\nayan\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\nayan\AppData\Local\Programs\Python\Python313\;C:\Users\nayan\AppData\Local\Microsoft\WindowsApps;C:\Users\nayan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\nayan\AppData\Local\GitHubDesktop\bin;C:\Users\nayan\AppData\Roaming\npm;;.]
+29-Mar-2025 09:42:07.312 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-Mar-2025 09:42:07.339 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [727] milliseconds
+29-Mar-2025 09:42:07.401 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+29-Mar-2025 09:42:07.401 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.102]
+29-Mar-2025 09:42:07.412 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\nayan\.SmartTomcat\CRUD_TEST_1\CRUD_TEST_1\conf\Catalina\localhost\CRUD_TEST_1.xml]
+29-Mar-2025 09:42:07.614 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.0]. Default version will be used.
+29-Mar-2025 09:42:07.888 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\nayan\.SmartTomcat\CRUD_TEST_1\CRUD_TEST_1\conf\Catalina\localhost\CRUD_TEST_1.xml] has finished in [476] ms
+29-Mar-2025 09:42:07.893 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Mar-2025 09:42:07.961 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [620] milliseconds
+29-Mar-2025 09:42:21.748 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Mar-2025 09:42:21.823 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+29-Mar-2025 09:42:21.832 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Mar-2025 09:42:21.835 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Mar-2025 09:42:25.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.102
+29-Mar-2025 09:42:25.033 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 3 2025 19:33:14 UTC
+29-Mar-2025 09:42:25.033 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.102.0
+29-Mar-2025 09:42:25.033 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+29-Mar-2025 09:42:25.033 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+29-Mar-2025 09:42:25.033 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+29-Mar-2025 09:42:25.033 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\nayan\.jdks\corretto-17.0.10
+29-Mar-2025 09:42:25.034 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+7-LTS
+29-Mar-2025 09:42:25.034 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+29-Mar-2025 09:42:25.034 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\nayan\.SmartTomcat\CRUD_TEST_1\CRUD_TEST_1
+29-Mar-2025 09:42:25.034 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\nayan\Downloads\apache-tomcat-9.0.102\apache-tomcat-9.0.102
+29-Mar-2025 09:42:25.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Mar-2025 09:42:25.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+29-Mar-2025 09:42:25.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+29-Mar-2025 09:42:25.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Mar-2025 09:42:25.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Mar-2025 09:42:25.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\nayan\Downloads\apache-tomcat-9.0.102\apache-tomcat-9.0.102
+29-Mar-2025 09:42:25.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\nayan\.SmartTomcat\CRUD_TEST_1\CRUD_TEST_1
+29-Mar-2025 09:42:25.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\nayan\.SmartTomcat\CRUD_TEST_1\CRUD_TEST_1\temp
+29-Mar-2025 09:42:25.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\nayan\.SmartTomcat\CRUD_TEST_1\CRUD_TEST_1\conf\logging.properties
+29-Mar-2025 09:42:25.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Mar-2025 09:42:25.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\nayan\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2024.1\lib\idea_rt.jar=12329:C:\Users\nayan\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2024.1\bin
+29-Mar-2025 09:42:25.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+29-Mar-2025 09:42:25.056 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\nayan\.jdks\corretto-17.0.10\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jre1.8.0_251\bin\;C:\Program Files\Git\cmd;C:\Program Files\jdk-22.0.2\bin;C:\Program Files\nodejs\;C:\Users\nayan\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\nayan\AppData\Local\Programs\Python\Python313\;C:\Users\nayan\AppData\Local\Microsoft\WindowsApps;C:\Users\nayan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\nayan\AppData\Local\GitHubDesktop\bin;C:\Users\nayan\AppData\Roaming\npm;;.]
+29-Mar-2025 09:42:25.446 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-Mar-2025 09:42:25.469 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [754] milliseconds
+29-Mar-2025 09:42:25.525 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+29-Mar-2025 09:42:25.525 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.102]
+29-Mar-2025 09:42:25.539 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\nayan\.SmartTomcat\CRUD_TEST_1\CRUD_TEST_1\conf\Catalina\localhost\CRUD_TEST_1.xml]
+29-Mar-2025 09:42:25.800 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.0]. Default version will be used.
+29-Mar-2025 09:42:26.101 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\nayan\.SmartTomcat\CRUD_TEST_1\CRUD_TEST_1\conf\Catalina\localhost\CRUD_TEST_1.xml] has finished in [563] ms
+29-Mar-2025 09:42:26.108 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Mar-2025 09:42:26.186 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [716] milliseconds
+29-Mar-2025 09:42:28.768 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Mar-2025 09:42:28.841 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+29-Mar-2025 09:42:28.848 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Mar-2025 09:42:28.850 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
